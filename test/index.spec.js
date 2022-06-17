@@ -14,7 +14,7 @@ describe("Pencil Durability Kata Tests", () => {
       const pencil = new Pencil();
       const result = pencil.writeOnPaper("", "Goodmorning!");
 
-      expect(result).to.equal("Goodbye!");
+      expect(result).to.equal("Goodmorning!");
     });
 
     it("Writes text to paper that already has text written on it", () => {
